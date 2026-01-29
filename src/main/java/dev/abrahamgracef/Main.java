@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String token = Dotenv.load().get("DISCORD_TOKEN");
+        String token = System.getenv("DISCORD_TOKEN");
 
         GatewayDiscordClient client =
                 DiscordClientBuilder.create(token)
