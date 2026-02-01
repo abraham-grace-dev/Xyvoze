@@ -21,7 +21,7 @@ public class LavalinkConfig {
 
         NodeOptions node = new NodeOptions.Builder()
                 .setName("main-node")
-                .setServerUri(URI.create("https://lavalink-java.onrender.com:443"))
+                .setServerUri(URI.create("http://192.168.33.10:25635"))
                 .setPassword("rqvenisgay")
                 .build();
 
@@ -36,7 +36,7 @@ public class LavalinkConfig {
                 .setVoiceDispatchInterceptor(
                         new JDAVoiceUpdateListener(lavalinkClient)
                 )
-                .addEventListeners(new dev.abrahamgracef.xyvoze.music.Play(lavalinkClient))
+                .addEventListeners(new dev.abrahamgracef.jda.music.Play(lavalinkClient))
                 .build();
 
         System.out.println("✅ JDA + Lavalink (v3.3.0) started");
