@@ -1,4 +1,4 @@
-package dev.abrahamgracef.xyvoze.music;
+package dev.abrahamgracef.jda.music;
 
 import dev.arbjerg.lavalink.client.LavalinkClient;
 import dev.arbjerg.lavalink.client.Link;

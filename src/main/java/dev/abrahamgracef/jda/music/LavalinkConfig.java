@@ -21,7 +21,7 @@ public class LavalinkConfig {
 
         NodeOptions node = new NodeOptions.Builder()
                 .setName("main-node")
-                .setServerUri(URI.create("http://192.168.33.10:25635"))
+                .setServerUri(URI.create("http://xyvoze:25635"))
                 .setPassword("rqvenisgay")
                 .build();
 
