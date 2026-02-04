@@ -7,8 +7,6 @@ import net.dv8tion.jda.api.entities.GuildVoiceState;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;
-import dev.abrahamgracef.jda.music.TrackQueue;
-import dev.abrahamgracef.jda.music.GuildMusicManager;
 
 
 public class Play extends ListenerAdapter {
