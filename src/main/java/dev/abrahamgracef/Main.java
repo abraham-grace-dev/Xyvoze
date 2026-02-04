@@ -7,7 +7,6 @@ import dev.abrahamgracef.jda.music.LavalinkConfig;
 import discord4j.core.DiscordClientBuilder;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.message.MessageCreateEvent;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class Main {
 
@@ -24,7 +23,7 @@ public class Main {
         System.out.println("✅ Bot is online!");
 
         CommandRegistry registry = new CommandRegistry();
-        registry.register(new PingCommand()); // you already have this
+        registry.register(new PingCommand());
 
         client.on(MessageCreateEvent.class)
                 .subscribe(event -> {
